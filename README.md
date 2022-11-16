@@ -1,6 +1,6 @@
 # Event-Driven-Architecture
 
-The idea behind this project was to make use of microservices, which inform staff members inside a retail market, immediatly after different events occured.
+The idea behind the project was to make use of microservices, which inform staff members inside a retail market, immediatly after different events occured.
 Each microservice represented a machine inside the retail market which, if a certain condition was met, would push a message to its detector model inside AWS.
 If a state change occured, based on the defined function of the detector model, the detector model would inform the staff member immediatly.
 
